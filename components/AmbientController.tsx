@@ -141,7 +141,7 @@ export default function AmbientController({ buttonMovebyClick }) {
         <Center>
           <a id="Lounge" onClick={() => { setShowRooms(false) }} href="#"><Image boxSize={isSmalerThan750h ? "60px" : "100px"} ml="5" mr="5" src="icons/pavillion.svg" alt="mapa" /></a>
         </Center>
-        <Text fontSize={isSmalerThan750h ? "12px" : "18px"}>{translatedWord.standsMap}</Text>
+        <Text fontSize={isSmalerThan750h ? "12px" : "18px"}>stands</Text>
 
       </Box>
     </Box>
